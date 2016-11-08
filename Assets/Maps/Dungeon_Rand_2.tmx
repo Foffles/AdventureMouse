@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="10" height="10" tilewidth="16" tileheight="16" nextobjectid="2">
+ <properties>
+  <property name="unity:scale" value=".0625"/>
+ </properties>
+ <tileset firstgid="1" name="Farm_tileset_transparent" tilewidth="16" tileheight="16" spacing="1" tilecount="140" columns="10">
+  <image source="../../../Farm_tileset_transparent.png" width="170" height="238"/>
+ </tileset>
+ <layer name="Base Terrain" width="10" height="10">
+  <data encoding="csv">
+65,64,66,65,64,64,64,64,64,66,
+73,61,63,73,61,61,61,61,61,63,
+73,61,63,73,61,67,68,61,61,63,
+73,61,63,73,61,63,73,61,61,63,
+73,61,63,73,61,63,73,61,61,63,
+73,61,63,73,61,63,73,61,61,63,
+73,61,63,73,61,63,73,61,61,63,
+73,61,77,78,61,63,73,61,61,63,
+73,61,61,61,61,63,73,61,61,63,
+75,74,74,74,74,76,75,74,74,76
+</data>
+ </layer>
+ <layer name="Terrain Details" width="10" height="10">
+  <data encoding="csv">
+0,126,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,62,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="1" x="13.6667" y="6.66667">
+   <polyline points="0,0 -7.66667,-1.33333 -7.33333,147 75,146.333 77,35.6667 87.3333,35.6667 88.6667,37.6667 90.3333,146 139.333,145.667 139.333,0.666667 138,-1.66667 43,-1 41,111 28.6667,110.333 27.6667,0 24.6667,-0.333333 -0.666667,-0.666667"/>
+  </object>
+ </objectgroup>
+</map>
